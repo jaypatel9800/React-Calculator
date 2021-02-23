@@ -14,7 +14,6 @@ class Calculator extends React.Component {
   }
 
   erase() {
-    const { equal } = this.state;
     this.setState({ count: "" });
   }
 
